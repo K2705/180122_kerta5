@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace TehtHissi
 {
+    /// <summary>
+    /// An elevator
+    /// Contains the elevator's current floor
+    /// Only allows changing the floor if the new floor is
+    /// between the maximum and minimum floors the elevator can go
+    /// </summary>
     class Elevator
     {
         public readonly int MinFloor = 1;
@@ -16,13 +22,23 @@ namespace TehtHissi
             get { return floor; }
             set
             {
-                if (value >= MinFloor && value <= MaxFloor)
+                if (value < MinFloor)
                 {
-                    floor = value;
+                    throw new ArgumentOutOfRangeException("floor", "Value too low.");
                 }
+                else if (value > MaxFloor)
+                {
+                    throw new ArgumentOutOfRangeException("floor", "Value too high.");
+                }
+                else floor = value;
             }
         }
 
+        /// <summary>
+        /// New Elevator
+        /// </summary>
+        /// <param name="minFloor">Lowest floor the elevator can go</param>
+        /// <param name="maxFloor">Highest floor the elevator can go</param>
         public Elevator(int minFloor, int maxFloor)
         {
             this.MinFloor = minFloor;
