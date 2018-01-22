@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D6BBC55-8EBD-4EC3-A9DA-94A2BFDE56A7}</ProjectGuid>
+    <ProjectGuid>{57873D92-839B-4006-8F09-CE3A82BA92A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_180122_kerta5</RootNamespace>
-    <AssemblyName>180122_kerta5</AssemblyName>
+    <RootNamespace>TehtTankki</RootNamespace>
+    <AssemblyName>TehtTankki</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cat.cs" />
-    <Compile Include="MyUtils.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Tank.cs" />
+    <Compile Include="TestTank.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
