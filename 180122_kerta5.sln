@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "180122_kerta5", "180122_ker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TehtTankki", "TehtTankki\TehtTankki.csproj", "{57873D92-839B-4006-8F09-CE3A82BA92A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TehtHissi", "TehtHissi\TehtHissi.csproj", "{47A27C7F-3969-47DA-8720-273FA81E5835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57873D92-839B-4006-8F09-CE3A82BA92A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57873D92-839B-4006-8F09-CE3A82BA92A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57873D92-839B-4006-8F09-CE3A82BA92A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A27C7F-3969-47DA-8720-273FA81E5835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A27C7F-3969-47DA-8720-273FA81E5835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A27C7F-3969-47DA-8720-273FA81E5835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A27C7F-3969-47DA-8720-273FA81E5835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
