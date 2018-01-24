@@ -17,6 +17,11 @@ namespace TehtHissi
         public readonly int MinFloor = 1;
         public readonly int MaxFloor = 5;
         private int floor;
+        /// <summary>
+        /// The floor the elevator is on
+        /// <throws>ArgumentOutOfRangeException when attempting to set floor not
+        /// between the allowed minimum and maximum values</throws>
+        /// </summary>
         public int Floor
         {
             get { return floor; }

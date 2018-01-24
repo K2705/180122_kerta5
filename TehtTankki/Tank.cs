@@ -19,6 +19,10 @@ namespace TehtTankki
         /// <summary>
         /// The number of crew on board the tank
         /// Must be between 2 and 6
+        /// 
+        /// It would actually be better not to set this with the setter because then
+        /// you could return a value to tell whether it succeeded, but this is what
+        /// we're stuck with.
         /// </summary>
         public int CrewCount
         {
@@ -50,7 +54,7 @@ namespace TehtTankki
         }
 
         /// <summary>
-        /// Default constructor, both name and type set to "default tank"
+        /// Default constructor, both name and type set to "generic tank"
         /// </summary>
         public Tank() : this("generic tank", "generic tank")
         {
